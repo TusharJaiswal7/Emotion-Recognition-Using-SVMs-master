@@ -3,7 +3,7 @@
 """
 The MIT License (MIT)
 
-Copyright (c) 2016 Izhar Shaikh
+Copyright (c) 2022 Tushar Jaiswal
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -27,7 +27,7 @@ SOFTWARE.
 Emotion recognition using SVMs (Scikit-learn & OpenCV
 ======================================================
 
-Author: Izhar Shaikh
+Author: Tushar Jaiswal
 License: MIT
 Dependencies: Python 2.7, Scikit-Learn, OpenCV 3.0.0,
               Numpy, Scipy, Matplotlib, Tkinter
@@ -271,8 +271,8 @@ if __name__ == "__main__":
     authorVar = Tk.StringVar()
     authorLabel = Tk.Label(master=root, textvariable=authorVar)
     authorString = "\n\n Developed By: " \
-                   "\n Izhar Shaikh " \
-                   "\n (izhar.shaikh@ufl.edu) " \
+                   "\n Tushar Jaiswal " \
+                   "\n (tushar.08j@gmail.com) " \
                    "\n [EEL6825 Pattern Recognition - Spring 2016]"     # Initial print
     authorVar.set(authorString)
     authorLabel.pack(side=Tk.BOTTOM)
